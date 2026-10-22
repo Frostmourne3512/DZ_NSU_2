@@ -1,5 +1,5 @@
-a,b = map(int,input().split())
-if 13 >= (a ** 2 + b ** 2)**0.5:
-    print('Da')
+a = input()
+if len(a) == 4 and len(a) == len(set(a)) and int(a) not in range(1900,2051):
+    print('OK')
 else:
-    print('Net')
+    print('ERROR')
